@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    width: 100%;
+    height: 18rem;
+    position: relative;
+    
+}
+#header .header-bgr{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#header .header-bgr img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#header .header-img{
+    position: absolute;
+    width: 20%;
+    height: auto;
+    z-index: 1;
+    margin-top: 6%;
+    margin-left: 2%;
+}
+#header .header-img img{
+    width: 100%;
+    border-radius: 100%;
+    object-fit: cover;
+}
+#header .header-text{
+    position: absolute;
+    z-index: 100;
+    margin-top: 8%;
+    margin-left: 25%;
+    text-align: center;
+}
+#header .header-text .name{
+    color: red;
+    font-size: 40px;
+    padding: 10px 2px;
+    font-weight: 600;
+}
+#header .header-text .room{
+    color: yellow;
+    padding: 2 2px 10px 0;
+}
+#header .header-text .slogan{
+    color: rgb(0, 255, 13);
+    padding: 10px 2px;
+    font-family: cursive;
+    font-size: 18px;
+}
+#content{
+    padding: 15px 20px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+#content .content-inf,
+#content .content-about,
+#content .content-educt,
+#content .content-contact{
+    flex: 1 1 25%;
+    text-align: center;
+    padding: 0 10px;
+}
+/* #content .content-inf,
+#content .content-about,
+#content .content-educt{
+    border-right: 0.4px solid black;
+} */
+#content .content-inf h1,
+#content .content-about h1,
+#content .content-educt h1,
+#content .content-contact h1{
+    padding: 15px 5px;
+    color: rgb(0, 255, 34);
+    font-weight: 600;
+    text-shadow: 2px 2px 2px palevioletred;
+}
+.hov:hover{
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+}
+#content .content-inf h3{
+    padding: 10px 0 5px 15px;
+    color: orange;
+    font-weight: 300;
+}
+#content .content-inf h3 span{
+    font-family: cursive;
+    color: red;
+}
+#content .content-about p{
+    padding: 15px 0 0 0;
+    font-size: 18px;
+    overflow: hidden;
+    font-family: fantasy;
+    line-height: 25px;
+    color: rgb(245, 29, 0);
+}
+#content .content-educt h2{
+    padding: 15px 0 5px 0;
+    font-weight: 500;
+}
+#content .content-educt h2 span{
+    color: palevioletred;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+#content .content-educt .box{
+    padding: 10px 0 5px 0;
+}
+#content .content-educt .box h3{
+    padding: 0 0 5px 0;
+    font-weight: 500;
+}
+#content .content-educt .box h5{
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.685);
+}
+#content .content-contact h3{
+    padding: 15px 0;
+    font-weight: 300;
+}
+#content .content-contact h3 span{
+    color: red;
+}
+#content .content-contact h3 a{
+    text-decoration: none;
+    color: red;
+}
+#content .content-contact h3 a:hover{
+    color: yellow;
+}
+.ic{
+    padding: 0 2px;
+    color: red;
+    text-shadow: none;
+}
+.icn{
+    padding: 0 2px;
+    font-size: 16px;
+}
+#footer{
+    background-color: black;
+    bottom: 0;
+    color: red;
+    text-align: center;
+}
